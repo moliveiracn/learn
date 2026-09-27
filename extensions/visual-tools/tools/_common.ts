@@ -26,6 +26,11 @@ export const FILES_DIRNAME = "viz"
 export const CHROME_CANDIDATES = [
   "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "/Applications/Chromium.app/Contents/MacOS/Chromium",
+  "/usr/bin/google-chrome",
+  "/usr/bin/google-chrome-stable",
+  "/usr/bin/chromium",
+  "/usr/bin/chromium-browser",
+  "/opt/zen-browser-bin/browser/chrome",
 ]
 
 export function findChrome(): string | undefined {

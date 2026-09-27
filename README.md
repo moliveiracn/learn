@@ -26,6 +26,12 @@ git clone https://github.com/amosblomqvist/learn .pi
 
 Then open pi in that directory. (Or copy the pieces you want into your existing project config.)
 
+## This fork
+
+Not installed in global `~/.pi/agent`. This directory is the vault project config.
+
+Pi 0.87 with Nico's `pi-subagents`. New sessions here use `xai/grok-4.7`. `researcher` is `opencode-go/glm-5.3`. The makers are `opencode-go/glm-5.3-flash`. Project overrides beat the global researcher pin. Images are unblocked here so a maker can look at a render.
+
 ## Requirements
 
 - [pi](https://github.com/earendil-works/pi)
