@@ -4,11 +4,8 @@ description: Authors ONE hand-written SVG from a brief, renders it to a PNG, LOO
 tools: write_svg, edit_svg, render_svg, read
 model: opencode-go/glm-5.3-flash
 thinking: medium
-systemPromptMode: replace
-inheritProjectContext: false
-inheritSkills: false
-advertise: true
-subagentOnlyExtensions: ../extensions/visual-tools/tools/svg_tools.ts
+system-prompt: append
+auto-exit: true
 ---
 
 # SVG Maker

@@ -28,9 +28,9 @@ Then open pi in that directory. (Or copy the pieces you want into your existing 
 
 ## This fork
 
-Not installed in global `~/.pi/agent`. This directory is the vault project config.
+Vault project config only. Global Pi still uses Nico's `pi-subagents`.
 
-Pi 0.87 with Nico's `pi-subagents`. New sessions here use `xai/grok-4.7`. `researcher` is `opencode-go/glm-5.3`. The makers are `opencode-go/glm-5.3-flash`. Project overrides beat the global researcher pin. Images are unblocked here so a maker can look at a render.
+In this directory Nico's package is loaded with no extensions, skills, or prompts. Subagents come from `moliveiracn/pi-interactive-subagents` (tmux). New sessions use `xai/grok-4.7`. `researcher` is `opencode-go/glm-5.3`. The makers are `opencode-go/glm-5.3-flash`.
 
 ## Requirements
 

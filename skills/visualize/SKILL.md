@@ -49,8 +49,6 @@ subagent({ agent: "mermaid-maker", task: "<your minimal, concrete brief>" })
 subagent({ agent: "svg-maker", task: "<your minimal, concrete brief>" })
 ```
 
-If `subagent` is not loaded yet, call `subagents_enable` first. This project authorizes those spawns.
-
 The maker owns its own purpose-built tools (`write_*`/`edit_*`/`render_*`) — it authors the source, renders it to a PNG, **looks at the PNG and iterates until it is correct and clean**, publishes it into the vault with a unique filename, and returns:
 
 ```

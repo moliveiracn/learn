@@ -4,20 +4,13 @@
   "images": {
     "blockImages": false
   },
-  "subagents": {
-    "agentOverrides": {
-      "researcher": {
-        "model": "opencode-go/glm-5.3",
-        "thinking": "medium"
-      },
-      "mermaid-maker": {
-        "model": "opencode-go/glm-5.3-flash",
-        "thinking": "medium"
-      },
-      "svg-maker": {
-        "model": "opencode-go/glm-5.3-flash",
-        "thinking": "medium"
-      }
-    }
-  }
+  "packages": [
+    {
+      "source": "npm:pi-subagents",
+      "extensions": [],
+      "skills": [],
+      "prompts": []
+    },
+    "git:github.com/moliveiracn/pi-interactive-subagents"
+  ]
 }

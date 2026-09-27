@@ -4,11 +4,8 @@ description: Authors ONE Mermaid diagram from a brief, renders it to a PNG, LOOK
 tools: write_mermaid, edit_mermaid, render_mermaid, read
 model: opencode-go/glm-5.3-flash
 thinking: medium
-systemPromptMode: replace
-inheritProjectContext: false
-inheritSkills: false
-advertise: true
-subagentOnlyExtensions: ../extensions/visual-tools/tools/mermaid_tools.ts
+system-prompt: append
+auto-exit: true
 ---
 
 # Mermaid Maker
