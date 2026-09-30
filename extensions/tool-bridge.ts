@@ -4,7 +4,7 @@ import { homedir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const WEB_FETCH = fileURLToPath(new URL("./web-fetch.ts", import.meta.url));
+const WEB_FETCH = join(homedir(), ".pi/agent/extensions/web-fetch.ts");
 const WEB_SEARCH = join(homedir(), ".pi/agent/npm/node_modules/pi-web-access/dist/index.js");
 
 export default function toolBridge(pi: ExtensionAPI): void {
