@@ -3,14 +3,5 @@
   "defaultModel": "grok-4.7",
   "images": {
     "blockImages": false
-  },
-  "packages": [
-    {
-      "source": "npm:pi-subagents",
-      "extensions": [],
-      "skills": [],
-      "prompts": []
-    },
-    "git:github.com/moliveiracn/pi-interactive-subagents"
-  ]
+  }
 }

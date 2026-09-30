@@ -28,9 +28,7 @@ Then open pi in that directory. (Or copy the pieces you want into your existing 
 
 ## This fork
 
-Vault project config only. Global Pi still uses Nico's `pi-subagents`.
-
-In this directory Nico's package is loaded with no extensions, skills, or prompts. Subagents come from `moliveiracn/pi-interactive-subagents` (tmux). New sessions use `xai/grok-4.7`. `researcher` is `opencode-go/glm-5.3`. The makers are `opencode-go/glm-5.3-flash`.
+Vault project config only. Subagents come from the global install of `moliveiracn/pi-interactive-subagents` (tmux). New sessions here use `xai/grok-4.7`. `researcher` is `opencode-go/glm-5.3`. The makers are `opencode-go/glm-5.3-flash`.
 
 ## Requirements
 
